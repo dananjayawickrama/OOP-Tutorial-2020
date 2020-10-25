@@ -3,18 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Z_tute_04;
+package Z_Lab_06_Abstract_classes_interfaces_Part_02;
 
 /**
  *
  * @author Dananjaya
  */
-public interface IDisplay {
+public interface IPrint {
     
-    
-    
-    void print(); // Print in one line
-    
+    void printLine();
     void printDetails();
     
 }

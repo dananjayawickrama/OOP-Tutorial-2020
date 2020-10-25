@@ -9,12 +9,8 @@ package Z_tute_04;
  *
  * @author Dananjaya
  */
-public interface IDisplay {
+public interface IInput {
     
     
-    
-    void print(); // Print in one line
-    
-    void printDetails();
-    
+    void input();
 }

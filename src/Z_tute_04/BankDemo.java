@@ -9,12 +9,16 @@ package Z_tute_04;
  *
  * @author Dananjaya
  */
-public interface IDisplay {
-    
-    
-    
-    void print(); // Print in one line
-    
-    void printDetails();
+public class BankDemo {
+    public static void main(String args[]){
+        
+        
+        SavingAccount sobj1 = new SavingAccount("1215");
+         sobj1.Deposit(10000);
+         sobj1.withdraw(3500);
+        
+      
+        
+    }
     
 }
